@@ -1,0 +1,54 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0rem;
+  text-align: center;
+  font-family: 'serif' ;
+}
+
+
+
+.btn {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 2rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.explore-btn {
+  background-color: rgb(2, 2, 119);
+}
+
+.explore {
+  color: rgb(236, 234, 234);
+}
+
+.learn-btn {
+  background-color: rgb(200, 200, 200);
+}
+
+.learn {
+  color: rgb(72, 72, 72);
+}
+
+@keyframes rotation {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+} 
+
+.loader {
+  margin-top: 5rem;
+  width: 48px;
+  height: 48px;
+  border: 5px solid #000b6d;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+  }
